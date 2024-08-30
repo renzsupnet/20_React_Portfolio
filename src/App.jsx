@@ -1,14 +1,15 @@
-import Navigation from './components/Navigation'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Navigation from './components/Navigation';
 
 function App() {
-
+  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
       <Navigation />
+      <Outlet />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
