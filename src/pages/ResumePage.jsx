@@ -1,4 +1,4 @@
-// This is a static page mocking an "About Us" section for our fake user data
+// This is a static page "Resume" section
 import Resume from '../components/Resume';
 import { RiJavascriptFill } from "react-icons/ri";
 import { RiJavaLine } from "react-icons/ri";

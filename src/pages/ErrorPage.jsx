@@ -1,3 +1,4 @@
+// This is a static page "Error"  
 import { useRouteError } from 'react-router-dom';
 
 export default function ErrorPage() {

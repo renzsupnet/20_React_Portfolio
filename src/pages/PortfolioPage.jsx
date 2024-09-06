@@ -1,13 +1,29 @@
-// This is a static page mocking an "About Us" section for our fake user data
+// This is a static page "PorfolioPage" section
 import { FaGithub } from "react-icons/fa";
 import { FaFirefoxBrowser } from "react-icons/fa";
-import {react} from 'react';
-export default function HomePage() {
-    
+
+export default function PorfolioPage() {
+
     const cardStyle = {
         width: '100%',
         height: '580px',
-        margin: '90px'
+        margin: '20px'
+    }
+
+    const cardStyleTop = {
+        width: '100%',
+        height: '580px',
+        marginTop: '90px',
+        marginLeft: '20px',
+        marginRight: '20px'
+    }
+
+    const cardStyleBottom = {
+        width: '100%',
+        height: '580px',
+        marginBottom: '130px',
+        marginLeft: '20px',
+        marginRight: '20px'
     }
 
     const cardBody = {
@@ -16,7 +32,8 @@ export default function HomePage() {
     }
 
     const imageStyle = {
-        width: '100%'
+        width: '100%',
+        transition: 'all 0.3s ease-in-out'
     }
 
     const iconStyle = {
@@ -26,7 +43,7 @@ export default function HomePage() {
       <div className="container">
         <div className="row">
             <div className="col-6">
-            <div className="card" style={cardStyle}>
+            <div className="card" style={cardStyleTop}>
                 <img src="https://raw.githubusercontent.com/CloudOfAlemar/quantum-rig/6012bd6480d24d56024828da5bd5567c66eb00df/public/img/quantum-rig-bg.svg" className="card-img-top" alt="..." style={imageStyle}/>
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Quantum Rig</h5>
@@ -37,7 +54,7 @@ export default function HomePage() {
             </div>
             </div>
             <div className="col-6">
-            <div className="card" style={cardStyle}>
+            <div className="card" style={cardStyleTop}>
                 <img src="https://github.com/renzsupnet/14_Tech_Blog/blob/main/public/img/profile.png?raw=true" className="card-img-top" alt="..." style={imageStyle}/>
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Tech Blog</h5>
@@ -70,7 +87,7 @@ export default function HomePage() {
             </div>
             </div>
             <div className="col-6">
-            <div className="card" style={cardStyle}>
+            <div className="card" style={cardStyleBottom}>
                 <img src="https://github.com/renzsupnet/11_Note_Taker/blob/main/public/assets/img/sample.png?raw=true" className="card-img-top" alt="..." style={imageStyle}/>
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Note Taker</h5>
@@ -81,7 +98,7 @@ export default function HomePage() {
             </div>
             </div>
             <div className="col-6">
-            <div className="card" style={cardStyle}>
+            <div className="card" style={cardStyleBottom}>
                 <img src="https://github.com/renzsupnet/04_Web_API_Challenge/blob/main/assets/images/blog.png?raw=true" className="card-img-top" alt="..." style={imageStyle}/>
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Web API Challenge</h5>

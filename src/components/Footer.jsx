@@ -21,18 +21,18 @@ export default function Footer() {
                 <span className="text-muted">@Renz Portfolio</span>
                 <div className="row" style={logoStyle}>
                     <div className="col-auto px-1">
-                        <h1>
+                        <h2>
                             <a href="https://github.com/renzsupnet" target="_blank" rel="noopener noreferrer">
                             <FaGithub />
                             </a>
-                        </h1>
+                        </h2>
                     </div>
                     <div className="col-auto px-1">
-                        <h1>
+                        <h2>
                         <a href="mailto:rcbsupnet@gmail.com">
                         <SiGmail />
                         </a>
-                        </h1>
+                        </h2>
                     </div>
                 </div>
 

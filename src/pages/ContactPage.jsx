@@ -1,5 +1,5 @@
-
-export default function HomePage() {
+// This is a static page "Contact" section 
+export default function ContactPage() {
     return (
       <div className="container pt-4">
         <h1>Contact</h1>
