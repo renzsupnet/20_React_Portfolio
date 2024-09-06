@@ -2,9 +2,10 @@ export default function Nav({ links }) {
 
     const styles = {
       navStyle: {
-        position: 'fixed',
+        position: 'absolute',
         top: 0,
-        width: '100%'
+        width: '100%',
+        marginBottom:'25px',
       }
     }
 

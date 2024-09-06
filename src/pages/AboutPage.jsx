@@ -1,5 +1,11 @@
 // This is a static page mocking an "About Us" section for our fake user data
+import { GrGamepad } from "react-icons/gr";
 export default function AboutPage() {
+  const imageStyle = {
+    borderRadius: '50%',
+    height: '100px',
+    width: '100px'
+  }
   return (
     <div className="container pt-4">
       <section className="features-icons bg-light text-center m-4">
@@ -10,7 +16,7 @@ export default function AboutPage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-window m-auto text-primary" />
                 </div>
-                <h3>WHO AM I?</h3>
+                <h1> <img src="https://avatars.githubusercontent.com/u/31431868?s=96&v=4" style={imageStyle}/> WHO AM I? <GrGamepad/></h1>
                 <p className="lead mb-0">
                   A short summary about me
                 </p>
