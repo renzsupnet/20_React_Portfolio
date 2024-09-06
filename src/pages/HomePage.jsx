@@ -1,4 +1,7 @@
+import { RiJavascriptFill } from "react-icons/ri";
 import { GrGamepad } from "react-icons/gr";
+import { FaPython } from "react-icons/fa6";
+import { PiFileSqlFill } from "react-icons/pi";
 export default function HomePage() {
   const imageStyle = {
     borderRadius: '50%',
@@ -41,6 +44,10 @@ export default function HomePage() {
         👓Graduated as Magna cum laude from the University of the Cordilleras, Baguio City, Philippines
         </li>
       </ul>
+      <br></br>
+      <h3>I learned:</h3>
+      <h4><RiJavascriptFill />Javascript  <FaPython />Python  <PiFileSqlFill />SQL</h4>
+      
     </div>
   );
 }
