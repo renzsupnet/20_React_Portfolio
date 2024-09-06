@@ -31,8 +31,8 @@ export default function HomePage() {
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Quantum Rig</h5>
                     <p className="card-text">Quantum Rig is a full-stack web application that allows users to create and manage custom PC builds. Users can sign up, log in, and create personalized PC builds by selecting and commenting on various parts.</p>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
+                    <a href="https://github.com/CloudOfAlemar/quantum-rig/tree/fixed" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
+                    <a href="https://quantum-rig-k6zh.onrender.com" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
                 </div>
             </div>
             </div>
@@ -42,8 +42,8 @@ export default function HomePage() {
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Tech Blog</h5>
                     <p className="card-text">This tech blog has been developed using express, sessions, bcrypt, sequalize, and handlebars. Certain routes are closed off from non members and require signing up before adding blog posts and/or commenting.</p>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
+                    <a href="https://github.com/renzsupnet/14_Tech_Blog/tree/main" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
+                    <a href="https://one4-tech-block.onrender.com" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
                 </div>
             </div>
             </div>
@@ -53,8 +53,8 @@ export default function HomePage() {
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">JATE PWA</h5>
                     <p className="card-text">A simple text editor that is an installable PWA application that uses service workers</p>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
+                    <a href="https://github.com/renzsupnet/19_JATE_PWA/tree/main" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
+                    <a href="https://one9-jate-pwa.onrender.com" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
                 </div>
             </div>
             </div>
@@ -64,8 +64,8 @@ export default function HomePage() {
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Weather Dashboard</h5>
                     <p className="card-text">A challenge to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.</p>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
+                    <a href="https://github.com/renzsupnet/06_Weather_DashBoard" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
+                    <a href="https://renzsupnet.github.io/06_Weather_DashBoard/" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
                 </div>
             </div>
             </div>
@@ -75,8 +75,8 @@ export default function HomePage() {
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Note Taker</h5>
                     <p className="card-text">An Express JS application about taking notes and applying routing principles.</p>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
+                    <a href="https://github.com/renzsupnet/11_Note_Taker/tree/main" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
+                    <a href="https://one1-note-taker-zplh.onrender.com" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
                 </div>
             </div>
             </div>
@@ -86,8 +86,8 @@ export default function HomePage() {
                 <div className="card-body" style={cardBody}>
                     <h5 className="card-title">Web API Challenge</h5>
                     <p className="card-text">A challenge to create a blog that displays the title, content and author from localStorage.</p>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
-                    <a href="#" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
+                    <a href="https://github.com/renzsupnet/04_Web_API_Challenge" className="btn btn-primary" style={iconStyle}><FaGithub/></a>
+                    <a href="https://renzsupnet.github.io/04_Web_API_Challenge/" className="btn btn-primary" style={iconStyle}><FaFirefoxBrowser/></a>
                 </div>
             </div>
             </div>
