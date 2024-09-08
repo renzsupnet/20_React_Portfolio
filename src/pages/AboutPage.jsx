@@ -10,7 +10,7 @@ export default function AboutPage() {
     width: '100px'
   }
   return (
-    <div className="container pt-4">
+    <div className="container">
       <section className="features-icons bg-light text-center m-4">
         <div className="container">
           <div className="row p-2">

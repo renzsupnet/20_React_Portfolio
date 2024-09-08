@@ -7,7 +7,9 @@ export default function PorfolioPage() {
     const cardStyle = {
         width: '100%',
         height: '580px',
-        margin: '20px'
+        margin: '20px',
+        alignItems: 'center',
+        textAlign: 'center',
     }
 
     const cardStyleTop = {
@@ -15,7 +17,9 @@ export default function PorfolioPage() {
         height: '580px',
         marginTop: '90px',
         marginLeft: '20px',
-        marginRight: '20px'
+        marginRight: '20px',
+        alignItems: 'center',
+        textAlign: 'center',
     }
 
     const cardStyleBottom = {
@@ -23,11 +27,15 @@ export default function PorfolioPage() {
         height: '580px',
         marginBottom: '130px',
         marginLeft: '20px',
-        marginRight: '20px'
+        marginRight: '20px',
+        alignItems: 'center',
+        textAlign: 'center',
     }
 
     const cardBody = {
+        width: '100%',
         position: 'absolute',
+        backgroundColor: '#FADFA1',
         bottom: 0
     }
 
