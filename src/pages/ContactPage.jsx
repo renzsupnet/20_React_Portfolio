@@ -6,11 +6,15 @@ export default function ContactPage() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      marginTop: '75px',
+      marginTop: '0.5 rem',
       marginBottom: '125px'
   }
+
+    const containerStyle = {
+      marginTop: '50px'
+    }
     return (
-      <div className="container pt-3">
+      <div className="container pt-5" style={containerStyle}>
         <h1>Contact</h1>
         <form>
               <div class="mb-3">
