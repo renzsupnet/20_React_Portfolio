@@ -6,8 +6,8 @@ export default function ContactPage() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      marginTop: '0.5rem',
-      marginBottom: '75px'
+      marginTop: '75px',
+      marginBottom: '125px'
   }
     return (
       <div className="container pt-3">
