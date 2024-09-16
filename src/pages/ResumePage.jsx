@@ -17,8 +17,10 @@ export default function HomePage() {
     fontSize: '25px'
   }
 
+
+
     return (
-      <div className="container pt-4">
+      <div className="container pt-5" style={ulStyle}>
         <h1>Education</h1>
         <ul style={ulStyle}><br></br>
         Magna Cum Laude
@@ -53,7 +55,7 @@ export default function HomePage() {
           <MdDesktopMac />Information Technology<br></br>
         </ul>
         <br></br>
-        <Resume />
+        <Resume/>
         <br></br>
         <br></br>
         <br></br>
