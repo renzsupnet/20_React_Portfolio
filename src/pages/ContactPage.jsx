@@ -7,9 +7,10 @@ export default function ContactPage() {
       justifyContent: 'center',
       alignItems: 'center',
       marginTop: '0.5rem',
+      marginBottom: '75px'
   }
     return (
-      <div className="container">
+      <div className="container pt-3">
         <h1>Contact</h1>
         <form>
               <div class="mb-3">
