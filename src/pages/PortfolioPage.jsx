@@ -26,6 +26,13 @@ export default function PortfolioPage() {
 
   const projects = [
     {
+      title: "PaperCut Pals",
+      description: "PAPERCUT PALS is a MERN Stack Single-Page Application that brings book lovers together in a virtual book club environment. It offers personalized book suggestions based on user preferences and provides a platform for literary discussion and discovery.",
+      image: "https://github.com/girlnotfound/PAPERCUT-PALS/blob/main/client/public/images/BookwormPalsTrans.png?raw=true",
+      github: "https://github.com/girlnotfound/PAPERCUT-PALS",
+      demo: "https://papercut-pals.onrender.com"
+    },
+    {
       title: "Quantum Rig",
       description: "Quantum Rig is a full-stack web application that allows users to create and manage custom PC builds. Users can sign up, log in, and create personalized PC builds by selecting and commenting on various parts.",
       image: "https://raw.githubusercontent.com/CloudOfAlemar/quantum-rig/6012bd6480d24d56024828da5bd5567c66eb00df/public/img/quantum-rig-bg.svg",
@@ -76,7 +83,7 @@ export default function PortfolioPage() {
           <Portfolio 
             key={index} 
             project={project} 
-            style={index < 2 ? cardStyleTop : index > 3 ? cardStyleBottom : cardStyle}
+            style={index < 2 ? cardStyleTop : index > 5 ? cardStyleBottom : cardStyle}
           />
         ))}
       </div>
